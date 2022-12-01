@@ -1,0 +1,253 @@
+body {
+    /* font-family: ; */
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: rgb(13, 65, 9); 
+}
+
+nav ul {
+    width: 1100px;
+    list-style: none;
+    /* background-color: aqua; */
+    margin: 0px auto;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    color: aliceblue;
+    /* background-color: rgb(225, 225, 232); */
+}
+
+ /* Main  */
+
+/* part 1   */
+
+.slogan {
+    background-image: url(./image/court1landscope.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    text-align: center; 
+}
+
+.slogan p {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 80px;
+    color: white;
+    margin: 0;
+}
+
+span {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+/* part 2 live */
+
+.live {
+    width: 1100px;
+    height: 250px;
+    background-color: white;
+    margin: 0px auto;
+    /* background-color: aqua; */
+    display: flex;
+    box-sizing: border-box;
+}
+
+.live img {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    width: auto;
+    height: 240px;
+    padding: 0px 50px;
+}
+
+.livetext {
+    font-size: 20px;
+    padding: 20px 20px 10px 100px;
+    font-weight: 500;
+    width: 50%;
+    overflow: hidden;
+}
+
+/* part 3 searchbar  */
+
+.searchbar {
+    /* border: 1px solid black; */
+    /* background-color: darkkhaki; */
+    width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+input {
+    box-sizing: border-box;
+    margin-top: 30px;
+    border: 0.5px solid gray;
+    width: 550px;
+    height: 45px;
+    border-radius: 6px;
+}
+
+input[placeholder] {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+/* part 3 browse  */
+
+.browse {
+    width: 360px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
+    /* background-color: darkslategrey; */
+    /* box-sizing: border-box; */
+}
+
+.browse p {
+    /* background-color: azure; */
+    margin: 10px 10px 0px 10px;
+    flex: 1;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.p1 {
+    padding-bottom: 12px;
+    text-align: end;
+    border-bottom: 1px solid gray;
+}
+
+.p2 { 
+    letter-spacing: 1.4px;;
+    padding-bottom: 12px;
+    text-align: start;
+    border-bottom: 1px solid gray;
+    /* background-color: darkgray; */
+}
+
+/* part 4 categorys  */
+
+.category {
+    width: 1100px;
+    padding-top: 70px;
+    margin-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: lightgray; */
+    /* margin-top: 0px; */
+    align-items: flex-end;
+    font-size: 22px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.numbers {
+    flex: 1.5;
+}
+
+.total {
+    /* background-color: cornsilk; */
+    /* font-size: 22px; */
+    text-align: center;
+    font-weight: 600;
+}
+
+.categories {
+    flex: 5;
+}
+
+.category ul {
+    /* background-color: aqua; */
+    list-style: none;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* part6 courts pictures */
+
+.courts  {
+    width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* .courtimg {
+    display: block;
+    width: 100%;
+} */
+
+.courtimg img {
+    width: auto;
+    height: 410px;
+    padding: 40px 10px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .searchbar {
+        width: 100%;
+    }
+
+    .live {
+        width: 100%;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .courts  {
+        width: 100%;
+        padding: 50px;
+        margin: 0 auto;
+        /* text-align: center; */
+        box-sizing: border-box;
+    }
+    .courtimg {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .courtimg img {
+        max-width: 100%;
+        padding-top: 10px;
+    
+    }
+    /* html {
+        width: 100%;
+    } */
+}
