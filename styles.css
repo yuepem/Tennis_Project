@@ -26,7 +26,7 @@ nav li {
     /* background-color: rgb(225, 225, 232); */
 }
 
- /* Main  */
+/* Main  */
 
 /* part 1   */
 
@@ -59,22 +59,23 @@ span {
     height: 250px;
     background-color: white;
     margin: 0px auto;
-    /* background-color: aqua; */
     display: flex;
     box-sizing: border-box;
 }
 
 .live img {
-    border: 0px solid #ddd;
-    border-radius: 4px;
-    width: auto;
-    height: 240px;
-    padding: 0px 50px;
+    display: flex;
+    flex: 1;
+    max-height: 115px;
+    padding: 50px 0;
+    object-fit: cover;
+    overflow-x: hidden;
 }
 
-.livetext {
+.live_text {
+    flex: 2;
     font-size: 20px;
-    padding: 20px 20px 10px 100px;
+    padding: 20px 20px 10px 10px;
     font-weight: 500;
     width: 50%;
     overflow: hidden;
