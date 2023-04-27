@@ -1,3 +1,2 @@
 ## Home Page
-<<<<<<< HEAD
-![Home Page](./images/homePage.png)
+![Home Page](./image/homePage.png)
